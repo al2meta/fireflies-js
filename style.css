@@ -1,0 +1,18 @@
+body {
+	background-color: #000;
+	text-align: center;
+}
+
+canvas {
+	height: 162px;
+}
+
+#portrait {
+	top: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	position: absolute;
+    width: 100%;
+    max-width: 262px;
+    min-width: 240px;
+    cursor: pointer;
+}
